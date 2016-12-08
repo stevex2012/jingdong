@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+/*详情也main_top样式*/
+.main{background:#f2f2f2;}
+.main_top{width:1210px;margin:0 auto;}
+.main_top dl{padding-left:6px;}
+.main_top dt,.main_top dd{float:left;height:41px;line-height:41px;}
+.main_top dt{color:#69645e;font-size:18px;font-weight:bold;}
+.main_top dd a{color:#636363;}
+.main_top dd a:hover{color:#c81623;}
+.main_top dd span{padding:0 7px }
+.main_bottom{width:1210px;margin:0 auto;background:#fff;border-bottom:1px solid #f1f1f1;}
+/*图片放大镜部分*/
+.main_bottom_left{float:left;padding:13px 14px 0 ;position:relative;}
+.main_bottom_left .m_img{width:350px;height:350px;position:relative;}
+.main_bottom_left .m_img span{width:200px;height:200px;background:rgba(248,226,109,0.5);position:absolute;left:0;top:0;display:none;cursor:move;}
+.main_bottom_left .m_img img{width:350px;height:350px;}
+.main_bottom_left .l_img{width:400px;height:400px;overflow:hidden;position:absolute;left:100%;top:14px;border:1px solid #f2f2f2;display:none;z-index:1;}
+.main_bottom_left .l_img img{width:700px;height:700px;position:absolute;left:0;top:0;}
+.main_bottom_left .s_img{padding:14px 20px 8px 20px;position:relative;height:56px;overflow:hidden;}
+/*小图片的移动切换和*/
+.main_bottom_left .s_img_box{position:relative;overflow:hidden;height:56px;width:100%;}
+.main_bottom_left .s_img_box ul{position:absolute;overflow:hidden;height:56px;left:0;top:0;}
+.main_bottom_left .s_img_box ul .ac{border-color:#a65551;}
+.main_bottom_left .s_img li{float:left;width:50px;height:50px;border:3px solid #fff;font-size:0;margin:0 3px}
+.main_bottom_left .s_img li img{width:50px;height:50px;}
+.main_bottom_left .s_img a{position:absolute;width:14px;height:42px;line-height:42px;font-size:42px;top:20px;color:#ecedf1;z-index:1;}
+.main_bottom_left .s_img .pre{left:0;}
+.main_bottom_left .s_img .next{right:0;}
+.main_bottom_left .number{height:48px;line-height:48px;font-size:12px;font-family:'宋体';padding-left:20px;}
+.main_bottom_left .number .a1{padding-left:86px;}
+.main_bottom_left .number i{padding-right:5px;color:#fcb600;}
+/*main_bot_middle样式---------------*/
+.main_bottom_middle{float:left;width:588px;padding:13px 0 20px;}
+.main_bottom_middle h3{line-height:26px;color:#596976;padding:0 74px 0 9px;font-size:16px;}
+.main_bottom_middle p{line-height:16px;color:#fd5b68;height:16px;font-size:12px;padding-bottom:12px;}
+.main_bottom_middle .price{min-height:50px;background:#f6f6f6;line-height:50px;padding-left:12px;color:#656565;font-size:12px;font-family:"宋体";position:relative;}
+.main_bottom_middle .price b{font-size:20px;font-family:arial;color:#ee323e;line-height:50px;vertical-align:middle;}
+.main_bottom_middle .price span{position:absolute;right:0;top:10px;height:32px;border-left:1px solid #e6e6e6;line-height:16px;text-align:center;}
+.main_bottom_middle .price span a{display:block;margin:0 12px;color:#2e4f7a;}
+.main_bottom_middle .price span a:hover{color:#ee323e}
+.main_bottom_middle .sendArea{line-height:34px;color:#6a6a6a;padding:12px 0 3px 12px;font-size:13px;font-family:"宋体";border-bottom:1px dotted #dbdbdb}
+.main_bottom_middle .sendArea .location{display:inline-block;*display:inline;*zoom:1;line-height:23px;border:1px solid #ccc;height:23px;padding:0 15px 0 5px;position:relative;width:120px;}
+.main_bottom_middle .location span{position:absolute;right:0;top:10px;width:0;height:0;border:5px solid transparent;border-top-color:#000;}
+.main_bottom_middle .location .locaList{position:absolute;border:1px solid #ccc;border-top:none;background:#fff;width:100%;left:-1px;top:100%;z-index:1;display:none;overflow:hidden;}
+.main_bottom_middle .location em{font-style:normal;overflow:hidden;display:block;height:23px;width:100%;}
+.main_bottom_middle .location .locaList b{display:block;font-weight:normal;cursor:pointer;font-size:12px;}
+.main_bottom_middle .location .locaList .ac{background:#eee;}
+.main_bottom_middle .sendArea b{font-size:15px;color:#75675c;}
+.main_bottom_middle .sendArea a{color:#c73e45;}
+.main_bottom_middle ul{padding:17px 0 35px 72px;position:relative;}
+.main_bottom_middle ul span{position:absolute;height:28px;line-height:28px;left:12px;top:17px;}
+.main_bottom_middle ul li{float:left;border:1px solid #cbcbcb;margin:0 8px 4px 0;font-size:12px;font-family:"宋体";}
+.main_bottom_middle ul li a{display:block;padding:0 5px;color:#6b6b6b;height:24px;line-height:24px;border:1px solid #fff;}
+.main_bottom_middle ul .ac{border-color:#e93445;}
+.main_bottom_middle ul .ac a{border-color:#e93445;}
+.main_bottom_middle ul .ac .bg{background:url(../images/xianqin01.jpg) no-repeat right bottom;}
+.main_bottom_middle ol{padding-left:10px;}
+.main_bottom_middle ol li{float:left;}
+.main_bottom_middle ol .h_many{height:34px;line-height:34px;width:33px;position:relative;border:1px solid #cbcbcb;color:#656364;margin-right:26px;}
+.main_bottom_middle ol .h_many input{font-weight:normal;font-size:14px;font-family:arial;width:100%;height:100%;text-align:center;}
+.main_bottom_middle ol .h_many span{position:absolute;border:1px solid #d3cfd0;border-left:none;text-align:center;cursor:pointer;}
+.main_bottom_middle ol .h_many .btn1{width:15px;height:17px;top:-1px;right:-16px;line-height:17px;}
+.main_bottom_middle ol .h_many .btn2{width:15px;height:16px;top:17px;right:-16px;line-height:16px;}
+.main_bottom_middle ol li a{display:block;width:134px;height:36px;line-height:36px;color:#fff;background:#df3c33;border-radius:3px;font-size:18px;font-weight:bold;position:relative;}
+.main_bottom_middle ol li a:hover:before{content:'';width:100%;height:100%;border-radius:3px;position:absolute;left:0;top:0;z-index:1;background:rgba(255,255,255,0.1);}
+.main_bottom_middle ol li a i{padding:0 10px;}
+.main_bottom_middle .mention{line-height:62px;color:#636363;font-size:12px;font-family:"宋体";padding-left:12px;}
+.main_bottom_middle .mention span{padding-right:16px;}
+/*main_bottom_right样式----------------*/
+.main_bottom_right{float:left;width:201px;padding-top:20px;margin-left:21px;}
+.main_bottom_right .topLogo{display:block;border-top:1px solid #efefef;border-bottom:1px solid #efefef;font-size:0;text-align:center;padding:10px 0;}
+.main_bottom_right .self{height:52px;line-height:52px;padding:0 65px 0 11px;font-size:12px;font-family:arial,"宋体";overflow:hidden;text-overflow:ellipsis;white-space:nowrap;position:relative;}
+.main_bottom_right .self .name1{color:#0b5c9d;}
+.main_bottom_right .self .name2{color:#fff;position:absolute;background:#e93445;border-radius:3px;height:18px;line-height:18px;padding:0 4px;top:16px;left:136px;}
+.main_bottom_right ul{padding:0 0 4px 3px;}
+.main_bottom_right ul li{float:left;width:90px;height:28px;border:1px solid #cbcbcb;margin:0 7px 12px 0;}
+.main_bottom_right ul li a{display:block;height:28px;line-height:28px;font-size:12px;font-family:arial,"宋体";}
+.main_bottom_right ul li i{display:block;width:17px;height:100%;float:left;background:url(../images/xianqin03.png) no-repeat;background-position:0 6px;margin:0 6px 0 4px }
+.main_bottom_right ul li .bg2{background-position:-130px 5px;margin:0 5px 0 11px}
+.main_bottom_right ul li .bg3{background-position:-104px 6px;margin:0 5px 0 10px}
+.main_bottom_right ul li .bg4{background-position:-78px 6px;margin:0 5px 0 10px}
+.main_bottom_right dl{line-height:27px;font-size:12px;color:#666;padding-left:10px;}
+.main_bottom_right dt{height:27px;}
+.main_bottom_right dd{float:left;width:86px;height:27px;background:url(../images/xianqi04_03.jpg) no-repeat 0 5px;}
+.main_bottom_right .dd2{background:url(../images/xianqi04_05.jpg) no-repeat 0 5px;}
+.main_bottom_right dd a{padding-left:20px;color:#777ba0;}
+/*banner区域样式-------------------------*/
+.banner{width:1210px;margin:0 auto;padding-top:6px;}
+.banner ul{height:29px;border:1px solid #ddd;border-top:2px solid #9c9c9c;}
+.banner ul .ac a{height:34px;line-height:34px;border:1px solid #ddd;border-bottom:none;border-top:2px solid #e93737;position:relative;left:-1px;top:-6px;z-index:1;background:#fff;color:#e93737;}
+.banner ul li{float:left;}
+.banner ul li a{display:block;height:29px;line-height:29px;padding:0 12px;font-size:13px;font-weight:bold;color:#6a6a6a;}
+.banner ol {border:1px solid #ddd;border-top:none;padding-top:6px;}
+.banner ol li{float:left;width:130px;text-align:center;margin:0 35px;padding:21px 0 22px;} 
+.banner ol li a{display:block;}
+.banner ol li .banner_pic{width:130px;height:130px;font-size:0;}
+.banner ol li .txt{line-height:18px;font-size:12px;word-break:break-all;height:36px;width:100%;overflow:hidden;font-family:arial,"宋体";padding-top:3px;}
+.banner ol li b{line-height:16px;color:#e93737}
+
